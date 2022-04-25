@@ -1,0 +1,51 @@
+.page404 {
+    height: 100vh;
+    width: 100%;
+}
+
+.app_exchange_bg {
+    background-image: url(http://kirstconstruction.com/wp-content/uploads/2018/01/money-bg.jpg);
+    height: 100vh;
+    width: 100;
+    background-size: cover;
+}
+
+.app_exchange_title {
+    font-family: 'Karantina', cursive;
+    font-size: 5em;
+    color:rgb(150, 153, 120);
+    text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px;
+}
+
+.app_exchange_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.app_exchange_content{
+    /* min-height: 450px; */
+    max-width: 750px;
+  
+}
+
+.input_change_img{
+    cursor: pointer;
+}
+.input_input{
+outline: none;
+border: rgb(196, 189, 189) 0.5px solid;
+padding: 3px ;
+border-radius: 4px;
+color:rgb(83, 87, 46) ;
+max-width: 140px;
+font-weight: 600;
+
+}
+.input_select{
+    color:rgb(83, 87, 46) !important;
+    font-weight: 600;
+
+}
+.myDate_title{
+    color: rgb(83, 87, 46);
+}
