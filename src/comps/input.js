@@ -17,13 +17,10 @@ export default function Input(props) {
         let url = `https://api.currencyapi.com/v3/latest?apikey=Z0h8AEKCgRkA2eqzRlO03vurUN6DXyd5fkHKtu69`
         let resp = await fetch(url);
         let data = await resp.json();
-
         let tempArr = [];
-        console.log(data.data);
         for (let key in data.data) {
             tempArr.push({ value: data.data[key].value, label: data.data[key].code});
         }
-        console.log(tempArr)
         setOption(tempArr);
         setSelect1Val({ value: tempArr[140].value, label:tempArr[140].label })
         setSelect2Val( {value: tempArr[60].value, label:tempArr[60].label })
